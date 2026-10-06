@@ -1,0 +1,3 @@
+# Project 01: LAN Chat & File Sharing
+# External dependencies: Standard library only (no external packages required)
+pytest>=7.0.0

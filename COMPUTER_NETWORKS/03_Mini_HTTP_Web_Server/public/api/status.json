@@ -1,0 +1,15 @@
+{
+  "server": "Mini HTTP Web Server",
+  "status": "ONLINE",
+  "protocol": "HTTP/1.1",
+  "transport": "TCP",
+  "layer": "Application Layer (OSI Layer 7)",
+  "features": [
+    "Raw TCP socket implementation",
+    "RFC 2616 tokenized header parsing",
+    "MIME content negotiation",
+    "GET and HEAD method handlers",
+    "Safe filesystem traversal protection"
+  ],
+  "author": "Computer Networks Student"
+}

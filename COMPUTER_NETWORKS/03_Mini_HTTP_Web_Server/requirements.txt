@@ -1,0 +1,3 @@
+# Project 03: Mini HTTP Web Server & Client
+# External dependencies: Standard library only
+pytest>=7.0.0

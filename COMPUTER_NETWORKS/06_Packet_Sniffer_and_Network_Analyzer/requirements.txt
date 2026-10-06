@@ -1,0 +1,3 @@
+# Project 06: Packet Sniffer & Network Analyzer
+# External dependencies: Standard library only (Scapy is optional)
+pytest>=7.0.0

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini HTTP Web Server - About Protocol</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="badge">Academic Viva Reference</div>
+            <h1>About HTTP Protocol</h1>
+            <p class="subtitle">Understanding Hypertext Transfer Protocol over TCP sockets.</p>
+        </header>
+
+        <nav>
+            <a href="/index.html">Home</a>
+            <a href="/about.html" class="active">About Protocol</a>
+            <a href="/api/status.json">JSON API</a>
+            <a href="/nonexistent-page.html">Test 404</a>
+        </nav>
+
+        <section class="card">
+            <h2>HTTP Request Structure</h2>
+            <pre><code>GET /index.html HTTP/1.1\r\n
+Host: 127.0.0.1:8080\r\n
+User-Agent: Mozilla/5.0 ...\r\n
+Accept: text/html,application/xhtml+xml\r\n
+\r\n</code></pre>
+
+            <h2>HTTP Response Structure</h2>
+            <pre><code>HTTP/1.1 200 OK\r\n
+Server: MiniHTTPServer/1.0\r\n
+Date: Tue, 06 Oct 2026 04:00:00 GMT\r\n
+Content-Type: text/html; charset=utf-8\r\n
+Content-Length: 1245\r\n
+Connection: close\r\n
+\r\n
+&lt;!DOCTYPE html&gt;...</code></pre>
+        </section>
+
+        <footer>
+            <p><a href="/index.html">&larr; Back to Home</a></p>
+        </footer>
+    </div>
+</body>
+</html>

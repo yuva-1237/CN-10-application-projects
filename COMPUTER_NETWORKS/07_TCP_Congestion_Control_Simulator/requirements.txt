@@ -1,0 +1,3 @@
+# Project 07: TCP Congestion Control Simulator
+# External dependencies: Standard library only (matplotlib optional)
+pytest>=7.0.0

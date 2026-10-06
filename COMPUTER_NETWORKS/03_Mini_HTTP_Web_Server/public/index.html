@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini HTTP Web Server - Home</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="badge">RFC 2616 / RFC 7230 Compliant</div>
+            <h1>Mini HTTP Web Server</h1>
+            <p class="subtitle">Built purely with Python low-level TCP stream sockets.</p>
+        </header>
+
+        <nav>
+            <a href="/index.html" class="active">Home</a>
+            <a href="/about.html">About Protocol</a>
+            <a href="/api/status.json">JSON API</a>
+            <a href="/nonexistent-page.html">Test 404</a>
+        </nav>
+
+        <section class="card">
+            <h2>Under the Hood: Network Protocol Stack</h2>
+            <div class="protocol-box">
+                <p><strong>1. Transport Layer:</strong> TCP 3-Way Handshake (SYN &rarr; SYN-ACK &rarr; ACK) establishes connection on <code>Port 8080</code>.</p>
+                <p><strong>2. Application Layer:</strong> The web browser sends an ASCII HTTP/1.1 request formatted with CRLF line breaks.</p>
+                <p><strong>3. Parsing Engine:</strong> Our socket server tokenizes the request line, identifies MIME types, and streams binary bytes.</p>
+            </div>
+        </section>
+
+        <footer>
+            <p>Computer Networks Academic Project 03 &bull; Socket Programming Demonstration</p>
+        </footer>
+    </div>
+</body>
+</html>

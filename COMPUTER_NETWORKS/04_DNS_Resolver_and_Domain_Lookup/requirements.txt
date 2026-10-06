@@ -1,0 +1,3 @@
+# Project 04: DNS Resolver and Domain Lookup
+# External dependencies: Standard library only
+pytest>=7.0.0

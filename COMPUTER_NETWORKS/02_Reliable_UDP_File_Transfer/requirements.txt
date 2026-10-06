@@ -1,0 +1,3 @@
+# Project 02: Reliable UDP File Transfer
+# External dependencies: Standard library only
+pytest>=7.0.0

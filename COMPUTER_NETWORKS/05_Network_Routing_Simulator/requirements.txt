@@ -1,0 +1,3 @@
+# Project 05: Network Routing Simulator
+# External dependencies: Standard library only
+pytest>=7.0.0

@@ -1,0 +1,3 @@
+# Project 08: Multi-Client Network Server
+# External dependencies: Standard library only
+pytest>=7.0.0

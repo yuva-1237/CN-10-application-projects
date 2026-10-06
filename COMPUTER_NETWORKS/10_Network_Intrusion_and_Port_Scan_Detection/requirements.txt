@@ -1,0 +1,3 @@
+# Project 10: Network Intrusion and Port Scan Detection
+# External dependencies: Standard library only
+pytest>=7.0.0
